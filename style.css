@@ -1,0 +1,118 @@
+root {
+    --base-radius: 5px;
+}
+
+body{
+    background-color: #798FB9;
+    margin-top: 0;
+    font-family: "Roboto";
+}
+
+.navbar{
+    height: 50px;
+    background-color: #5773A8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.userFormDiv{
+    background-color:#5773A8;
+    width: 50%;
+    padding: 10px;
+    border-radius: var(--inputs-radius);
+    border: 1px solid #999;
+    
+}
+.userElem{
+    color: #000;
+    border-radius: var(--inputs-radius);
+    width: 90%;
+    margin: 10px 30px 10px 10px;
+}
+.userSelect{
+    color:#999;
+}
+
+.userList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+.userListDiv{
+    display: flex;
+    justify-content: center;
+}
+.userItem{
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color:#5773A8;
+    width: 80%;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+    height: 170px;
+    border-radius: 20px 5px 5px 5px;
+    border: none;
+}
+
+.formButton{
+    border-radius: 5px;
+    margin: 10px 10px;    
+}
+
+.userEditButton{
+    display: none;
+    width: 60px;
+}
+.userForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.deleteButton{
+    background-color: #000000;
+    color: #aaa;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 0.8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: none;
+}
+/* color: #357eca */
+    /* #3735CA */
+    /* #35C8CA */
+
+    .userElemLabel{
+        display: none;
+        margin-bottom: -12px;
+        margin-left: 10px;
+        z-index: 10;
+        background-color: #5773A8;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+
+    .newUserAvatar{
+        width: 100px;
+        height: 150px;
+        border-radius: 15px 5px 5px 5px;
+        margin-bottom: 30px;
+    }
+    .newUserInfo{
+        padding: 2px;
+        margin: 0px auto 5px 5px;
+        
+    }
+
+    .newUserNameDiv{
+        font-weight: bold;
+    }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twój Trener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">Twój trener</nav>
+    <div class="userFormDiv">
+        <form action="#" class="userForm">
+            <label for="firstName" class="userElemLabel">Imię</label>
+            <input type="text" class="userElem userInput userElem_firstName" name="firstName" placeholder="Imię"><br>
+            <label for="lastName" class="userElemLabel">Nazwisko</label>
+            <input type="text" class="userElem userInput userElem_lastName" name="lastName" placeholder="Nazwisko"><br>
+            <label for="company" class="userElemLabel">Nazwa firmy</label>
+            <input type="text" class="userElem userInput userElem_company" name="company" placeholder="Nazwa firmy"><br>
+            <label for="place" class="userElemLabel">Adres</label>
+            <input type="text" class="userElem userInput userElem_place" name="place" placeholder="Adres"><br>
+            <select class="userElem userSelect userElem_target" onchange="disabledOptionStyle(this)">
+                <option value="" disabled selected class="hiddenOption">Grupa docelowa</option>
+                <option value="Dorośli i Dzieci">Dorośli i Dzieci</option>
+                <option value="Dzieci">Dzieci</option>
+                <option value="Dorośli">Dorośli</option>
+            </select><br>
+            <select class="userElem userSelect userElem_type" onchange="disabledOptionStyle(this)">
+                <option value="" disabled selected class="hiddenOption">Rodzaj zajęć</option>
+                <option value="Indywidualne i Grupowe">Indywidulane i grupowe</option>
+                <option value="Indywidualne">Indywidualne</option>
+                <option value="Grupowe">Grupowe</option>
+            </select>
+            <br>
+            <input type="submit" class="userElem_button formButton" value="Wyślij"><br>
+            <!-- <button type="submit" class="userForm_button">Wyślij</button> -->
+        </form>
+    </div>
+        <div class="userListDiv">
+        <ul class="userList"></ul>
+    </div>
+    <div class="deleteButton">x</div>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
