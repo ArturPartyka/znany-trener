@@ -426,9 +426,7 @@ function userSelectStyle(allSelect){
 }
 
 
-// EditButton do li
-// Wydzielic do osobnych funkcji
-// Cancel button na edit mode
-// Zmienic addEditButtonsListeners to addEventButtonListener(editButton)
 
-// Moze jakies stylowanie
+
+
+// export EDITOR=nano
